@@ -1,0 +1,23 @@
+{
+    "name": "nvellon/hal",
+    "description": "A hypermedia application language implementation",
+    "keywords": ["hal", "rest"],
+    "homepage": "http://github.com/nvellon/hal",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicolás Vellón",
+            "email": "nvellon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7.0",
+    },
+    "autoload": {
+        "psr-4": {"Monolog\\": "src/Monolog"}
+    }
+}

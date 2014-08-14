@@ -18,6 +18,6 @@
         "phpunit/phpunit": "~3.7.0",
     },
     "autoload": {
-        "psr-4": {"Monolog\\": "src/Monolog"}
+        "psr-4": {"Hal\\": "src/"}
     }
 }
